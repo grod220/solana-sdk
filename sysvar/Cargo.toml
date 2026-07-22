@@ -88,6 +88,7 @@ solana-define-syscall = { workspace = true }
 
 [dev-dependencies]
 anyhow = { workspace = true }
+proptest = { workspace = true }
 serial_test = { workspace = true }
 solana-example-mocks = { path = "../example-mocks" }
 solana-hash = { workspace = true, features = ["atomic", "bytemuck"] }
